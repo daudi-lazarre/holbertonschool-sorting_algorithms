@@ -38,5 +38,6 @@ void print_list(const listint_t *list);
 
 /* Sorting algoritms */
 void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
 
 #endif /* SORT_H */
